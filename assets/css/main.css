@@ -1,34 +1,114 @@
-html, body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html{
+    font-family: 'Raleway', sans-serif;
 }
-p{
-    color: wheat;
-    padding: 24px 16px;
-    font-size: 20px;
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(0, 100, 163, 0.904);
 }
-.red{
-    height: 400px;
-    width: 400px;
-    background-color: rgb(43, 81, 114);
-    box-shadow: 6px 6px 12px 6px rgba(0, 0, 0, 0.15);
-    border-radius: 30px;
-}
-#boton-pago{
-    background-color: thistle;
-}
-td{
-    border: solid 1px blue;
-}
-h2{
-    margin: 16px;
+.text{
+    display: inline-block;
+    width: 68%;
+    vertical-align: top;
 }
 .logo{
     width: 200px;
-    height: 200px;
-    margin: 16px;
+    height: 200px; 
+    border-radius: 100%;   
+}
+.logo-box{
     display: inline-block;
+    width: 20%;
+    margin: 0px 16px;
 }
 .address{
-    display: inline-block;
-    margin: 16px;
+    color: rgba(255, 255, 255, 0.911);
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    margin: 16px 0px;
+    font-weight: 300;
+}
+i{
+    margin-right: 8px;
+}
+p{
+    color: rgba(255, 255, 255, 0.911); 
+    margin: 16px;    
+    font-size: 1.4em;
+    line-height: 1.8em; 
+    height: fit-content;   
+}
+.container{
+    background-image: linear-gradient(-60deg, #f09819 0%, #ff5858 100%);
+    height: 100vh;
+    /**
+        El 'width' de este div por defecto abarca todo el ancho, asi que no se pone width: 100vh;
+    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    margin: auto 0px; 
+    height: 10%;
+    font-weight: 700;
+}
+h1, h2{
+    margin: auto 0px; 
+    height: 10%;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgba(128, 41, 23, 0.308);
+    font-size: 2.2em;
+    font-weight: 700;
+}
+h1{
+    height: 20%;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.table{
+    margin: 0px 5%;
+    height: 60%;
+    width: 90%;
+    border-spacing: 0px;
+}
+.table tbody{    
+    font-size: 1.4em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.911);
+}
+.table th{
+    font-size: 1.6em;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.904);
+    font-weight: 700;
+}
+.table th, .table td{
+    padding: 0.6em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: rgba(255, 88, 88, 0.158);
+}
+section{
+    margin: 0px auto;
+    height: 70%;
+}
+.content,section{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    margin: 0px 0px;
+}
+.content{
+    flex-wrap: wrap;
+    max-width: 1080px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 30px;
+    box-shadow: 4px 4px 16px 10px rgba(128, 40, 23, 0.253);
 }
