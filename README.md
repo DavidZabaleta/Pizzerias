@@ -1,5 +1,5 @@
 # My Favorite Pizzerias
-Responsive web site project who shows my favorite pizzerias.</br>
+Responsive web site project that shows my favorite pizzerias.</br>
 Made it just for fun, developed with HTML, CSS and JavaScript.</br>
 
 ## Link
