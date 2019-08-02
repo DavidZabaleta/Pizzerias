@@ -34,7 +34,7 @@ close.forEach((link) =>{
         content.classList.add('fadeOutUp');
         content.classList.add('animated');
 
-        setInterval(()=> {location.href = '/';}, 500);
+        setInterval(()=> {location.href = '../';}, 500);
 
     });
 });
