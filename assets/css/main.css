@@ -131,6 +131,7 @@ section{
     position: absolute;
     top: 1em;
     right: 1em;
+    cursor: pointer;
 }
 .close{
     height: 1.4em;
