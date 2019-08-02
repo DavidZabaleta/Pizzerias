@@ -18,14 +18,15 @@ links.forEach((link)=>{
         setTimeout(() => {
             window.location.href = e.target.href;
         }, 500);
+        
     });
 });
 
 close.forEach((link) =>{
 
-    link.addEventListener('click', ()=>{
+    link.addEventListener('click', (e)=>{
 
-        
+        e.preventDefault();
         let content = document.querySelector('.content');
 
         content.classList.remove('fadeInDown');
@@ -34,7 +35,9 @@ close.forEach((link) =>{
         content.classList.add('fadeOutUp');
         content.classList.add('animated');
 
-        setInterval(()=> {location.href = '../';}, 500);
+        setInterval(() => {
+            window.location.href = e.target.href;
+        }, 500);
 
     });
 });
